@@ -1,0 +1,55 @@
+,,,,,,,,,,
+,USER ACCEPTANCE TEST,,,,,,,,,
+,Kartala Test Problem,,,,,,,,,
+,,,,,,,,,,
+,Project name,Website Kartala Problem,,Tester,Nandito Prasetyo,,Status Recap,57% PASSED,,
+,Description,UAT for website kartala,,Version,0.1,,PASS,FAIL,RETEST,BLOCKED
+,Created by,Nandito Prasetyo,,Test date,2025-11-16,,4,0,0,0
+,Created at,2025-11-16,,Priority,,,,,,
+,,,,,,,,,,
+,No / Ticket,Module,Test Case,Pre-Conditions,Steps to Execute,Test Data,Expected Results,Actual Results,Status,Notes / Evidence
+,REG-001,Register,Registrasi pengguna dengan data valid,User berada di halaman Register,"1. Buka halaman Register
+2. Isi field Name
+3. Isi field Email
+4. Isi field Phone
+5. Isi field Password
+6. Klik Register","Name: Nandito
+Email: nandito1@gmail.com
+Phone: 085161152188
+Password: nandito123","- Registrasi berhasil.
+- User di-redirect ke halaman Login. https://test-automation.kartala.dev/login
+- Tidak ada pesan error validasi yang muncul.","Setelah klik Register, sistem berhasil redirect ke halaman Login.
+Tidak ada error message yang muncul.
+URL berubah menjadi https://test-automation.kartala.dev/login
+",PASS,https://drive.google.com/file/d/1D8FN6Ws4BW9c2awp_ToRxH_E43P8BEr1/view?usp=drive_link
+,REG-002,Register,Registrasi pengguna dengan data tidak valid,User berada di halaman Register,"1. Buka halaman Register
+2. Isi Name = “N”
+3. Isi Email, Phone, Password valid
+4. Klik Register","Name: N
+Email: nandito2@gmail.com
+Phone: 085161152188
+Password: nandito123","- Registrasi gagal.
+- User tetap di halaman Registrasi.
+- Muncul pesan error ""Name must be at least 2 characters in length"".","Registrasi gagal dan tetap berada di halaman Register.
+Muncul pesan error: ""Name must be at least 2 characters in length"".
+
+",PASS,https://drive.google.com/file/d/1gQCijO2X6ZILXJWMAgSj2M2a-dbIOSDx/view?usp=drive_link
+,LOG-001,Login,Registrasi pengguna dengan data valid,User berada di halaman login,"1. Buka halaman Login
+2. Isi Email valid
+3. Isi Password valid
+4. Klik Login","Email: nandito1@gmail.com
+Password: nandito123","- Login berhasil.
+- User di-redirect ke halaman daftar user (User List).
+- Tampil text ""Registered User"" pada halaman.","Login berhasil dan halaman redirect ke User List.
+Data user tampil dengan benar dan menampilkan text ""Registered User""
+",PASS,https://drive.google.com/file/d/1I_dHvZem8VxuCBOL4uv8wM-9aIh5297d/view?usp=drive_link
+,LOG-002,Login,Registrasi pengguna dengan data tidak valid,User berada di halaman login,"1. Buka halaman Login
+2. Isi Email tidak valid
+3. Isi Password valid
+4. Klik Login","Email: nandito2@gmail.com
+Password: nandito123","- Login gagal.
+- User tetap di halaman Login https://test-automation.kartala.dev/login
+- Muncul pesan error ""Invalid email or password.","User tetap berada di halaman Login.
+Muncul pesan error ""Invalid email or password"".
+URL tetap https://test-automation.kartala.dev/login.
+",PASS,https://drive.google.com/file/d/1Y-pnngStTBYemkB0l9eaydPJXMvUzTFd/view?usp=drive_link
