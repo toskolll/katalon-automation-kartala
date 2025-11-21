@@ -27,6 +27,5 @@ https://docs.google.com/spreadsheets/d/1QSgvGGNcE5wZyvrnWMEwGjJ7h2iZkBvZ31NXP73K
      - `Reg-002`  
      - `Login-001`  
      - `Login-002`  
-   - Klik **Run**   
-   - Atau gunakan shortcut **CTRL + SHIFT + A**  
+   - Klik **Run** Atau gunakan shortcut **CTRL + SHIFT + A**  
    - Browser akan terbuka secara otomatis untuk menjalankan test
