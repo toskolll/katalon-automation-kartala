@@ -10,14 +10,14 @@ https://docs.google.com/spreadsheets/d/1QSgvGGNcE5wZyvrnWMEwGjJ7h2iZkBvZ31NXP73K
    - Kunjungi official website: https://katalon.com/download/  
    - Pilih Katalon Studio Enterprise
    - Download sesuai OS (Windows/Mac/Linux)  
-   - Install `katalon.exe`  
+   - Install `KATALON.EXE`  
    - Login menggunakan autentikasi yang tersedia  
    - Lakukan update WebDriver untuk versi terbaru  
 
 2. **Clone atau download project**  
    - Clone repository: https://github.com/toskolll/katalon-automation-kartala.git  
    - Atau download ZIP lalu extract  
-   - Klik **File lalu Open Project**  
+   - Klik File lalu Open Project  
    - Pilih folder `katalon-automation-kartala`  
 
 3. **Cara menjalankan test**  
